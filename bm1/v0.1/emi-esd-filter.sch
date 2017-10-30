@@ -1,0 +1,511 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:pkl_conn
+LIBS:pkl_cypress
+LIBS:pkl_device
+LIBS:pkl_ftdi
+LIBS:pkl_lattice
+LIBS:pkl_linear
+LIBS:pkl_logos
+LIBS:pkl_maxim
+LIBS:pkl_memory
+LIBS:pkl_misc
+LIBS:pkl_molex
+LIBS:pkl_power
+LIBS:pkl_sensor
+LIBS:pkl_silabs
+LIBS:pkl_tag_connect
+LIBS:pkl_texas
+LIBS:bm1-cache
+EELAYER 25 0
+EELAYER END
+$Descr User 6000 5000
+encoding utf-8
+Sheet 2 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L IP425x-4-TTL U5
+U 1 1 59F8F7CA
+P 2700 1000
+AR Path="/59F8EB91/59F8F7CA" Ref="U5"  Part="1" 
+AR Path="/59FB1E27/59F8F7CA" Ref="U9"  Part="1" 
+AR Path="/5A08EC0B/59F8F7CA" Ref="U13"  Part="1" 
+AR Path="/5A096814/59F8F7CA" Ref="U14"  Part="1" 
+AR Path="/5A096911/59F8F7CA" Ref="U15"  Part="1" 
+AR Path="/5A096EA5/59F8F7CA" Ref="U16"  Part="1" 
+AR Path="/59F94D6F/59F8F7CA" Ref="U6"  Part="1" 
+AR Path="/59F979D8/59F8F7CA" Ref="U7"  Part="1" 
+AR Path="/59FB1D1A/59F8F7CA" Ref="U8"  Part="1" 
+AR Path="/59FB1F34/59F8F7CA" Ref="U10"  Part="1" 
+AR Path="/59FB2104/59F8F7CA" Ref="U11"  Part="1" 
+AR Path="/59FB4AD5/59F8F7CA" Ref="U12"  Part="1" 
+F 0 "U5" H 3000 900 60  0000 C CNN
+F 1 "IP425x-4-TTL" H 2700 1100 60  0000 C CNN
+F 2 "pkl_housings_dfn_qfn:DFN-8-1EP_1.35x1.7mm_Pitch0.4mm" H 2700 1000 60  0001 C CNN
+F 3 "" H 2700 1000 60  0001 C CNN
+F 4 "ANY" H 2700 1000 60  0001 C CNN "Source"
+	1    2700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L IP425x-4-TTL U5
+U 2 1 59F8F7D1
+P 2700 1500
+AR Path="/59F8EB91/59F8F7D1" Ref="U5"  Part="2" 
+AR Path="/59FB1E27/59F8F7D1" Ref="U9"  Part="2" 
+AR Path="/5A08EC0B/59F8F7D1" Ref="U13"  Part="2" 
+AR Path="/5A096814/59F8F7D1" Ref="U14"  Part="2" 
+AR Path="/5A096911/59F8F7D1" Ref="U15"  Part="2" 
+AR Path="/5A096EA5/59F8F7D1" Ref="U16"  Part="2" 
+AR Path="/59F94D6F/59F8F7D1" Ref="U6"  Part="2" 
+AR Path="/59F979D8/59F8F7D1" Ref="U7"  Part="2" 
+AR Path="/59FB1D1A/59F8F7D1" Ref="U8"  Part="2" 
+AR Path="/59FB1F34/59F8F7D1" Ref="U10"  Part="2" 
+AR Path="/59FB2104/59F8F7D1" Ref="U11"  Part="2" 
+AR Path="/59FB4AD5/59F8F7D1" Ref="U12"  Part="2" 
+F 0 "U5" H 3000 1400 60  0000 C CNN
+F 1 "IP425x-4-TTL" H 2700 1600 60  0000 C CNN
+F 2 "pkl_housings_dfn_qfn:DFN-8-1EP_1.35x1.7mm_Pitch0.4mm" H 2700 1500 60  0001 C CNN
+F 3 "" H 2700 1500 60  0001 C CNN
+F 4 "ANY" H 2700 1500 60  0001 C CNN "Source"
+	2    2700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR52
+U 1 1 59F8F7D8
+P 2700 1200
+AR Path="/59F8EB91/59F8F7D8" Ref="#PWR52"  Part="1" 
+AR Path="/59FB1E27/59F8F7D8" Ref="#PWR84"  Part="1" 
+AR Path="/5A08EC0B/59F8F7D8" Ref="#PWR116"  Part="1" 
+AR Path="/5A096814/59F8F7D8" Ref="#PWR124"  Part="1" 
+AR Path="/5A096911/59F8F7D8" Ref="#PWR132"  Part="1" 
+AR Path="/5A096EA5/59F8F7D8" Ref="#PWR140"  Part="1" 
+AR Path="/59F94D6F/59F8F7D8" Ref="#PWR60"  Part="1" 
+AR Path="/59F979D8/59F8F7D8" Ref="#PWR68"  Part="1" 
+AR Path="/59FB1D1A/59F8F7D8" Ref="#PWR76"  Part="1" 
+AR Path="/59FB1F34/59F8F7D8" Ref="#PWR92"  Part="1" 
+AR Path="/59FB2104/59F8F7D8" Ref="#PWR100"  Part="1" 
+AR Path="/59FB4AD5/59F8F7D8" Ref="#PWR108"  Part="1" 
+F 0 "#PWR52" H 2700 950 50  0001 C CNN
+F 1 "GND" H 2700 1050 50  0000 C CNN
+F 2 "" H 2700 1200 50  0001 C CNN
+F 3 "" H 2700 1200 50  0001 C CNN
+	1    2700 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR53
+U 1 1 59F8F7DE
+P 2700 1700
+AR Path="/59F8EB91/59F8F7DE" Ref="#PWR53"  Part="1" 
+AR Path="/59FB1E27/59F8F7DE" Ref="#PWR85"  Part="1" 
+AR Path="/5A08EC0B/59F8F7DE" Ref="#PWR117"  Part="1" 
+AR Path="/5A096814/59F8F7DE" Ref="#PWR125"  Part="1" 
+AR Path="/5A096911/59F8F7DE" Ref="#PWR133"  Part="1" 
+AR Path="/5A096EA5/59F8F7DE" Ref="#PWR141"  Part="1" 
+AR Path="/59F94D6F/59F8F7DE" Ref="#PWR61"  Part="1" 
+AR Path="/59F979D8/59F8F7DE" Ref="#PWR69"  Part="1" 
+AR Path="/59FB1D1A/59F8F7DE" Ref="#PWR77"  Part="1" 
+AR Path="/59FB1F34/59F8F7DE" Ref="#PWR93"  Part="1" 
+AR Path="/59FB2104/59F8F7DE" Ref="#PWR101"  Part="1" 
+AR Path="/59FB4AD5/59F8F7DE" Ref="#PWR109"  Part="1" 
+F 0 "#PWR53" H 2700 1450 50  0001 C CNN
+F 1 "GND" H 2700 1550 50  0000 C CNN
+F 2 "" H 2700 1700 50  0001 C CNN
+F 3 "" H 2700 1700 50  0001 C CNN
+	1    2700 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L IP425x-4-TTL U5
+U 3 1 59F8F7E4
+P 2700 2000
+AR Path="/59F8EB91/59F8F7E4" Ref="U5"  Part="3" 
+AR Path="/59FB1E27/59F8F7E4" Ref="U9"  Part="3" 
+AR Path="/5A08EC0B/59F8F7E4" Ref="U13"  Part="3" 
+AR Path="/5A096814/59F8F7E4" Ref="U14"  Part="3" 
+AR Path="/5A096911/59F8F7E4" Ref="U15"  Part="3" 
+AR Path="/5A096EA5/59F8F7E4" Ref="U16"  Part="3" 
+AR Path="/59F94D6F/59F8F7E4" Ref="U6"  Part="3" 
+AR Path="/59F979D8/59F8F7E4" Ref="U7"  Part="3" 
+AR Path="/59FB1D1A/59F8F7E4" Ref="U8"  Part="3" 
+AR Path="/59FB1F34/59F8F7E4" Ref="U10"  Part="3" 
+AR Path="/59FB2104/59F8F7E4" Ref="U11"  Part="3" 
+AR Path="/59FB4AD5/59F8F7E4" Ref="U12"  Part="3" 
+F 0 "U5" H 3000 1900 60  0000 C CNN
+F 1 "IP425x-4-TTL" H 2700 2100 60  0000 C CNN
+F 2 "pkl_housings_dfn_qfn:DFN-8-1EP_1.35x1.7mm_Pitch0.4mm" H 2700 2000 60  0001 C CNN
+F 3 "" H 2700 2000 60  0001 C CNN
+F 4 "ANY" H 2700 2000 60  0001 C CNN "Source"
+	3    2700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L IP425x-4-TTL U5
+U 4 1 59F8F7EB
+P 2700 2500
+AR Path="/59F8EB91/59F8F7EB" Ref="U5"  Part="4" 
+AR Path="/59FB1E27/59F8F7EB" Ref="U9"  Part="4" 
+AR Path="/5A08EC0B/59F8F7EB" Ref="U13"  Part="4" 
+AR Path="/5A096814/59F8F7EB" Ref="U14"  Part="4" 
+AR Path="/5A096911/59F8F7EB" Ref="U15"  Part="4" 
+AR Path="/5A096EA5/59F8F7EB" Ref="U16"  Part="4" 
+AR Path="/59F94D6F/59F8F7EB" Ref="U6"  Part="4" 
+AR Path="/59F979D8/59F8F7EB" Ref="U7"  Part="4" 
+AR Path="/59FB1D1A/59F8F7EB" Ref="U8"  Part="4" 
+AR Path="/59FB1F34/59F8F7EB" Ref="U10"  Part="4" 
+AR Path="/59FB2104/59F8F7EB" Ref="U11"  Part="4" 
+AR Path="/59FB4AD5/59F8F7EB" Ref="U12"  Part="4" 
+F 0 "U5" H 3000 2400 60  0000 C CNN
+F 1 "IP425x-4-TTL" H 2700 2600 60  0000 C CNN
+F 2 "pkl_housings_dfn_qfn:DFN-8-1EP_1.35x1.7mm_Pitch0.4mm" H 2700 2500 60  0001 C CNN
+F 3 "" H 2700 2500 60  0001 C CNN
+F 4 "ANY" H 2700 2500 60  0001 C CNN "Source"
+	4    2700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR54
+U 1 1 59F8F7F2
+P 2700 2200
+AR Path="/59F8EB91/59F8F7F2" Ref="#PWR54"  Part="1" 
+AR Path="/59FB1E27/59F8F7F2" Ref="#PWR86"  Part="1" 
+AR Path="/5A08EC0B/59F8F7F2" Ref="#PWR118"  Part="1" 
+AR Path="/5A096814/59F8F7F2" Ref="#PWR126"  Part="1" 
+AR Path="/5A096911/59F8F7F2" Ref="#PWR134"  Part="1" 
+AR Path="/5A096EA5/59F8F7F2" Ref="#PWR142"  Part="1" 
+AR Path="/59F94D6F/59F8F7F2" Ref="#PWR62"  Part="1" 
+AR Path="/59F979D8/59F8F7F2" Ref="#PWR70"  Part="1" 
+AR Path="/59FB1D1A/59F8F7F2" Ref="#PWR78"  Part="1" 
+AR Path="/59FB1F34/59F8F7F2" Ref="#PWR94"  Part="1" 
+AR Path="/59FB2104/59F8F7F2" Ref="#PWR102"  Part="1" 
+AR Path="/59FB4AD5/59F8F7F2" Ref="#PWR110"  Part="1" 
+F 0 "#PWR54" H 2700 1950 50  0001 C CNN
+F 1 "GND" H 2700 2050 50  0000 C CNN
+F 2 "" H 2700 2200 50  0001 C CNN
+F 3 "" H 2700 2200 50  0001 C CNN
+	1    2700 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR55
+U 1 1 59F8F7F8
+P 2700 2700
+AR Path="/59F8EB91/59F8F7F8" Ref="#PWR55"  Part="1" 
+AR Path="/59FB1E27/59F8F7F8" Ref="#PWR87"  Part="1" 
+AR Path="/5A08EC0B/59F8F7F8" Ref="#PWR119"  Part="1" 
+AR Path="/5A096814/59F8F7F8" Ref="#PWR127"  Part="1" 
+AR Path="/5A096911/59F8F7F8" Ref="#PWR135"  Part="1" 
+AR Path="/5A096EA5/59F8F7F8" Ref="#PWR143"  Part="1" 
+AR Path="/59F94D6F/59F8F7F8" Ref="#PWR63"  Part="1" 
+AR Path="/59F979D8/59F8F7F8" Ref="#PWR71"  Part="1" 
+AR Path="/59FB1D1A/59F8F7F8" Ref="#PWR79"  Part="1" 
+AR Path="/59FB1F34/59F8F7F8" Ref="#PWR95"  Part="1" 
+AR Path="/59FB2104/59F8F7F8" Ref="#PWR103"  Part="1" 
+AR Path="/59FB4AD5/59F8F7F8" Ref="#PWR111"  Part="1" 
+F 0 "#PWR55" H 2700 2450 50  0001 C CNN
+F 1 "GND" H 2700 2550 50  0000 C CNN
+F 2 "" H 2700 2700 50  0001 C CNN
+F 3 "" H 2700 2700 50  0001 C CNN
+	1    2700 2700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1000 2300 1000
+Wire Wire Line
+	2400 1500 2300 1500
+Wire Wire Line
+	2400 2000 2300 2000
+Wire Wire Line
+	2400 2500 2300 2500
+Wire Wire Line
+	3000 1000 3100 1000
+Wire Wire Line
+	3100 1000 3600 1000
+Wire Wire Line
+	3000 1500 3600 1500
+Wire Wire Line
+	3000 2000 3600 2000
+Wire Wire Line
+	3000 2500 3600 2500
+Text HLabel 2300 1000 0    60   Input ~ 0
+A1
+Text HLabel 2300 1500 0    60   Input ~ 0
+A2
+Text HLabel 2300 2000 0    60   Input ~ 0
+A3
+Text HLabel 2300 2500 0    60   Input ~ 0
+A4
+Text HLabel 3600 1000 2    60   Input ~ 0
+B1
+Text HLabel 3600 1500 2    60   Input ~ 0
+B2
+Text HLabel 3600 2000 2    60   Input ~ 0
+B3
+Text HLabel 3600 2500 2    60   Input ~ 0
+B4
+$Comp
+L pkl_R4_Small R13
+U 1 1 5A05C819
+P 3300 900
+AR Path="/59F8EB91/5A05C819" Ref="R13"  Part="1" 
+AR Path="/59FB1E27/5A05C819" Ref="R17"  Part="1" 
+AR Path="/5A08EC0B/5A05C819" Ref="R21"  Part="1" 
+AR Path="/5A096814/5A05C819" Ref="R22"  Part="1" 
+AR Path="/5A096911/5A05C819" Ref="R23"  Part="1" 
+AR Path="/5A096EA5/5A05C819" Ref="R24"  Part="1" 
+AR Path="/59F94D6F/5A05C819" Ref="R14"  Part="1" 
+AR Path="/59F979D8/5A05C819" Ref="R15"  Part="1" 
+AR Path="/59FB1D1A/5A05C819" Ref="R16"  Part="1" 
+AR Path="/59FB1F34/5A05C819" Ref="R18"  Part="1" 
+AR Path="/59FB2104/5A05C819" Ref="R19"  Part="1" 
+AR Path="/59FB4AD5/5A05C819" Ref="R20"  Part="1" 
+F 0 "R13" V 3350 1000 50  0000 L CNN
+F 1 "100k" V 3350 650 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 3300 900 60  0001 C CNN
+F 3 "" H 3300 900 60  0000 C CNN
+F 4 "ANY" H 3300 900 60  0001 C CNN "Source"
+	1    3300 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 1000 3100 900 
+Wire Wire Line
+	3100 900  3200 900 
+Connection ~ 3100 1000
+Wire Wire Line
+	3400 900  3600 900 
+Wire Wire Line
+	3600 900  3600 800 
+$Comp
+L +3.3V #PWR56
+U 1 1 5A05C9A9
+P 3600 800
+AR Path="/59F8EB91/5A05C9A9" Ref="#PWR56"  Part="1" 
+AR Path="/59FB1E27/5A05C9A9" Ref="#PWR88"  Part="1" 
+AR Path="/5A08EC0B/5A05C9A9" Ref="#PWR120"  Part="1" 
+AR Path="/5A096814/5A05C9A9" Ref="#PWR128"  Part="1" 
+AR Path="/5A096911/5A05C9A9" Ref="#PWR136"  Part="1" 
+AR Path="/5A096EA5/5A05C9A9" Ref="#PWR144"  Part="1" 
+AR Path="/59F94D6F/5A05C9A9" Ref="#PWR64"  Part="1" 
+AR Path="/59F979D8/5A05C9A9" Ref="#PWR72"  Part="1" 
+AR Path="/59FB1D1A/5A05C9A9" Ref="#PWR80"  Part="1" 
+AR Path="/59FB1F34/5A05C9A9" Ref="#PWR96"  Part="1" 
+AR Path="/59FB2104/5A05C9A9" Ref="#PWR104"  Part="1" 
+AR Path="/59FB4AD5/5A05C9A9" Ref="#PWR112"  Part="1" 
+F 0 "#PWR56" H 3600 650 50  0001 C CNN
+F 1 "+3.3V" H 3600 940 50  0000 C CNN
+F 2 "" H 3600 800 50  0001 C CNN
+F 3 "" H 3600 800 50  0001 C CNN
+	1    3600 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_R4_Small R17
+U 2 1 5A05CA32
+P 3300 1400
+AR Path="/59FB1E27/5A05CA32" Ref="R17"  Part="2" 
+AR Path="/5A08EC0B/5A05CA32" Ref="R21"  Part="2" 
+AR Path="/5A096814/5A05CA32" Ref="R22"  Part="2" 
+AR Path="/5A096911/5A05CA32" Ref="R23"  Part="2" 
+AR Path="/5A096EA5/5A05CA32" Ref="R24"  Part="2" 
+AR Path="/59F8EB91/5A05CA32" Ref="R13"  Part="2" 
+AR Path="/59F94D6F/5A05CA32" Ref="R14"  Part="2" 
+AR Path="/59F979D8/5A05CA32" Ref="R15"  Part="2" 
+AR Path="/59FB1D1A/5A05CA32" Ref="R16"  Part="2" 
+AR Path="/59FB1F34/5A05CA32" Ref="R18"  Part="2" 
+AR Path="/59FB2104/5A05CA32" Ref="R19"  Part="2" 
+AR Path="/59FB4AD5/5A05CA32" Ref="R20"  Part="2" 
+F 0 "R13" V 3350 1500 50  0000 L CNN
+F 1 "100k" V 3350 1150 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 3300 1400 60  0001 C CNN
+F 3 "" H 3300 1400 60  0000 C CNN
+F 4 "ANY" H 3300 1400 60  0001 C CNN "Source"
+	2    3300 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 1500 3100 1400
+Wire Wire Line
+	3100 1400 3200 1400
+Wire Wire Line
+	3400 1400 3600 1400
+Wire Wire Line
+	3600 1400 3600 1300
+$Comp
+L +3.3V #PWR89
+U 1 1 5A05CA3C
+P 3600 1300
+AR Path="/59FB1E27/5A05CA3C" Ref="#PWR89"  Part="1" 
+AR Path="/5A08EC0B/5A05CA3C" Ref="#PWR121"  Part="1" 
+AR Path="/5A096814/5A05CA3C" Ref="#PWR129"  Part="1" 
+AR Path="/5A096911/5A05CA3C" Ref="#PWR137"  Part="1" 
+AR Path="/5A096EA5/5A05CA3C" Ref="#PWR145"  Part="1" 
+AR Path="/59F8EB91/5A05CA3C" Ref="#PWR57"  Part="1" 
+AR Path="/59F94D6F/5A05CA3C" Ref="#PWR65"  Part="1" 
+AR Path="/59F979D8/5A05CA3C" Ref="#PWR73"  Part="1" 
+AR Path="/59FB1D1A/5A05CA3C" Ref="#PWR81"  Part="1" 
+AR Path="/59FB1F34/5A05CA3C" Ref="#PWR97"  Part="1" 
+AR Path="/59FB2104/5A05CA3C" Ref="#PWR105"  Part="1" 
+AR Path="/59FB4AD5/5A05CA3C" Ref="#PWR113"  Part="1" 
+F 0 "#PWR57" H 3600 1150 50  0001 C CNN
+F 1 "+3.3V" H 3600 1440 50  0000 C CNN
+F 2 "" H 3600 1300 50  0001 C CNN
+F 3 "" H 3600 1300 50  0001 C CNN
+	1    3600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_R4_Small R17
+U 3 1 5A05CA71
+P 3300 1900
+AR Path="/59FB1E27/5A05CA71" Ref="R17"  Part="3" 
+AR Path="/5A08EC0B/5A05CA71" Ref="R21"  Part="3" 
+AR Path="/5A096814/5A05CA71" Ref="R22"  Part="3" 
+AR Path="/5A096911/5A05CA71" Ref="R23"  Part="3" 
+AR Path="/5A096EA5/5A05CA71" Ref="R24"  Part="3" 
+AR Path="/59F8EB91/5A05CA71" Ref="R13"  Part="3" 
+AR Path="/59F94D6F/5A05CA71" Ref="R14"  Part="3" 
+AR Path="/59F979D8/5A05CA71" Ref="R15"  Part="3" 
+AR Path="/59FB1D1A/5A05CA71" Ref="R16"  Part="3" 
+AR Path="/59FB1F34/5A05CA71" Ref="R18"  Part="3" 
+AR Path="/59FB2104/5A05CA71" Ref="R19"  Part="3" 
+AR Path="/59FB4AD5/5A05CA71" Ref="R20"  Part="3" 
+F 0 "R13" V 3350 2000 50  0000 L CNN
+F 1 "100k" V 3350 1650 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 3300 1900 60  0001 C CNN
+F 3 "" H 3300 1900 60  0000 C CNN
+F 4 "ANY" H 3300 1900 60  0001 C CNN "Source"
+	3    3300 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 2000 3100 1900
+Wire Wire Line
+	3100 1900 3200 1900
+Wire Wire Line
+	3400 1900 3600 1900
+Wire Wire Line
+	3600 1900 3600 1800
+$Comp
+L +3.3V #PWR90
+U 1 1 5A05CA7B
+P 3600 1800
+AR Path="/59FB1E27/5A05CA7B" Ref="#PWR90"  Part="1" 
+AR Path="/5A08EC0B/5A05CA7B" Ref="#PWR122"  Part="1" 
+AR Path="/5A096814/5A05CA7B" Ref="#PWR130"  Part="1" 
+AR Path="/5A096911/5A05CA7B" Ref="#PWR138"  Part="1" 
+AR Path="/5A096EA5/5A05CA7B" Ref="#PWR146"  Part="1" 
+AR Path="/59F8EB91/5A05CA7B" Ref="#PWR58"  Part="1" 
+AR Path="/59F94D6F/5A05CA7B" Ref="#PWR66"  Part="1" 
+AR Path="/59F979D8/5A05CA7B" Ref="#PWR74"  Part="1" 
+AR Path="/59FB1D1A/5A05CA7B" Ref="#PWR82"  Part="1" 
+AR Path="/59FB1F34/5A05CA7B" Ref="#PWR98"  Part="1" 
+AR Path="/59FB2104/5A05CA7B" Ref="#PWR106"  Part="1" 
+AR Path="/59FB4AD5/5A05CA7B" Ref="#PWR114"  Part="1" 
+F 0 "#PWR58" H 3600 1650 50  0001 C CNN
+F 1 "+3.3V" H 3600 1940 50  0000 C CNN
+F 2 "" H 3600 1800 50  0001 C CNN
+F 3 "" H 3600 1800 50  0001 C CNN
+	1    3600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_R4_Small R17
+U 4 1 5A05CAB1
+P 3300 2400
+AR Path="/59FB1E27/5A05CAB1" Ref="R17"  Part="4" 
+AR Path="/5A08EC0B/5A05CAB1" Ref="R21"  Part="4" 
+AR Path="/5A096814/5A05CAB1" Ref="R22"  Part="4" 
+AR Path="/5A096911/5A05CAB1" Ref="R23"  Part="4" 
+AR Path="/5A096EA5/5A05CAB1" Ref="R24"  Part="4" 
+AR Path="/59F8EB91/5A05CAB1" Ref="R13"  Part="4" 
+AR Path="/59F94D6F/5A05CAB1" Ref="R14"  Part="4" 
+AR Path="/59F979D8/5A05CAB1" Ref="R15"  Part="4" 
+AR Path="/59FB1D1A/5A05CAB1" Ref="R16"  Part="4" 
+AR Path="/59FB1F34/5A05CAB1" Ref="R18"  Part="4" 
+AR Path="/59FB2104/5A05CAB1" Ref="R19"  Part="4" 
+AR Path="/59FB4AD5/5A05CAB1" Ref="R20"  Part="4" 
+F 0 "R13" V 3350 2500 50  0000 L CNN
+F 1 "100k" V 3350 2150 50  0000 L CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 3300 2400 60  0001 C CNN
+F 3 "" H 3300 2400 60  0000 C CNN
+F 4 "ANY" H 3300 2400 60  0001 C CNN "Source"
+	4    3300 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 2500 3100 2400
+Wire Wire Line
+	3100 2400 3200 2400
+Wire Wire Line
+	3400 2400 3600 2400
+Wire Wire Line
+	3600 2400 3600 2300
+$Comp
+L +3.3V #PWR91
+U 1 1 5A05CABB
+P 3600 2300
+AR Path="/59FB1E27/5A05CABB" Ref="#PWR91"  Part="1" 
+AR Path="/5A08EC0B/5A05CABB" Ref="#PWR123"  Part="1" 
+AR Path="/5A096814/5A05CABB" Ref="#PWR131"  Part="1" 
+AR Path="/5A096911/5A05CABB" Ref="#PWR139"  Part="1" 
+AR Path="/5A096EA5/5A05CABB" Ref="#PWR147"  Part="1" 
+AR Path="/59F8EB91/5A05CABB" Ref="#PWR59"  Part="1" 
+AR Path="/59F94D6F/5A05CABB" Ref="#PWR67"  Part="1" 
+AR Path="/59F979D8/5A05CABB" Ref="#PWR75"  Part="1" 
+AR Path="/59FB1D1A/5A05CABB" Ref="#PWR83"  Part="1" 
+AR Path="/59FB1F34/5A05CABB" Ref="#PWR99"  Part="1" 
+AR Path="/59FB2104/5A05CABB" Ref="#PWR107"  Part="1" 
+AR Path="/59FB4AD5/5A05CABB" Ref="#PWR115"  Part="1" 
+F 0 "#PWR59" H 3600 2150 50  0001 C CNN
+F 1 "+3.3V" H 3600 2440 50  0000 C CNN
+F 2 "" H 3600 2300 50  0001 C CNN
+F 3 "" H 3600 2300 50  0001 C CNN
+	1    3600 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3100 1500
+Connection ~ 3100 2000
+Connection ~ 3100 2500
+$EndSCHEMATC
