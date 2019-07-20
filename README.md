@@ -1,4 +1,8 @@
-This repository contains files related to the BitMagic USB 3.0 SuperSpeed data syphon hardware.
+This repository contains files related to the BitMagic hardware.
+
+BitMagic-Basic is a simple USB High Speed Logic Analyzer compatible with [Sigrok](http://sigrok.org).
+
+BitMagic is a faster USB 3.0 SuperSpeed data syphon hardware.
 
 This hardware implements the acquisition of CPU Trace data in combination with [Orbuculum](https://github.com/mubes/orbuculum) and a streaming 32bit logic analyzer in combination with [Sigrok](http://sigrok.org).
 
