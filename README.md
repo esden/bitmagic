@@ -8,6 +8,8 @@ This hardware implements the acquisition of CPU Trace data in combination with [
 
 This project is aspiring to become a series of open source hardware streaming Logic Analyzers and data syphons compatible with open source software data processors like [Orbuculum](https://github.com/mubes/orbuculum), [Sigrok](http://sigrok.org) and more.
 
+All hardware design is licensed under [Creative Commons CC-BY-SA V4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+
 For more information and if you want to get involved in the development or have questions join https://gitter.im/esden/live channel and watch [Esden's streams](https://www.youtube.com/playlist?list=PLOF903IIpqjOwHIjT7VFqbxBhEHG8v5__).
 
 Cheers, Esden :D
