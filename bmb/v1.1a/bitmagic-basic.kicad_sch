@@ -1836,6 +1836,9 @@
   (junction (at 147.32 30.48) (diameter 1.016) (color 0 0 0 0)
     (uuid 4da42ec1-9825-407e-b013-a64fc514f4fb)
   )
+  (junction (at 58.42 21.59) (diameter 0) (color 0 0 0 0)
+    (uuid 516621a5-37cc-4e66-98a7-991b608196fd)
+  )
   (junction (at 157.48 40.64) (diameter 1.016) (color 0 0 0 0)
     (uuid 52a30ef1-473b-47e3-806b-542b2b53b774)
   )
@@ -5877,6 +5880,24 @@
     (pin "1" (uuid 937d68e9-5c5c-4f2f-a577-a92a815ca5d1))
   )
 
+  (symbol (lib_id "power:PWR_FLAG") (at 58.42 21.59 270) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 3a3ce4ec-789c-4548-ae20-37d3967597c0)
+    (property "Reference" "#FLG0101" (id 0) (at 60.325 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (id 1) (at 61.595 21.59 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (id 2) (at 58.42 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 58.42 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5fbb3a61-3ed8-42aa-9792-e7ed065e582c))
+  )
+
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 40.64 36.83 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9e5f697a-7c14-4d18-83ab-c7e26debc41a)
@@ -5992,6 +6013,9 @@
   (symbol_instances
     (path "/00000000-0000-0000-0000-000059bfad8c"
       (reference "#FLG030") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/3a3ce4ec-789c-4548-ae20-37d3967597c0"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000059bc78f7"
       (reference "#PWR01") (unit 1) (value "+3V3") (footprint "")
